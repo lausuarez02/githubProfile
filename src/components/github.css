@@ -1,0 +1,16 @@
+.containerPrincipal{
+    flex-direction: row;
+    display: flex;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width:990px){
+    .containerPrincipal{
+        flex-direction: column;
+        display: flex;
+        margin-top:"50px"
+    }
+    .card mb-3{
+        margin-top: 100px;
+    }
+}
